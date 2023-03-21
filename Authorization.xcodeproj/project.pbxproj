@@ -13,6 +13,7 @@
 		D6165A6029798DF10059049C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6165A5F29798DF10059049C /* Assets.xcassets */; };
 		D6165A6329798DF10059049C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6165A6129798DF10059049C /* LaunchScreen.storyboard */; };
 		D6165A752979A1660059049C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D6165A742979A1660059049C /* SnapKit */; };
+		D66827B929C23C0F000464F2 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66827B829C23C0F000464F2 /* UITextField+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		D6165A5F29798DF10059049C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6165A6229798DF10059049C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6165A6429798DF10059049C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D66827B829C23C0F000464F2 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		D6165A6C29798FBB0059049C /* Soursces */ = {
 			isa = PBXGroup;
 			children = (
+				D66827B729C23BC6000464F2 /* Extensions */,
 				D6165A70297990630059049C /* App */,
 				D6165A5A29798DEC0059049C /* ViewController.swift */,
 			);
@@ -88,6 +91,14 @@
 				D6165A5829798DEC0059049C /* SceneDelegate.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		D66827B729C23BC6000464F2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D66827B829C23C0F000464F2 /* UITextField+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6165A5B29798DEC0059049C /* ViewController.swift in Sources */,
+				D66827B929C23C0F000464F2 /* UITextField+Extensions.swift in Sources */,
 				D6165A5729798DEC0059049C /* AppDelegate.swift in Sources */,
 				D6165A5929798DEC0059049C /* SceneDelegate.swift in Sources */,
 			);
